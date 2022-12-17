@@ -40,10 +40,4 @@ class MallardDuckTest {
         mallardDuck.performQuack();
         verify(quackBehavior, times(1)).quack();
     }
-
-    @Test
-    @DisplayName("failure")
-    void failure() {
-        fail("Not Implemented x");
-    }
 }
