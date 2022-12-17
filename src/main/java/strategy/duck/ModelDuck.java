@@ -1,5 +1,8 @@
 package strategy.duck;
 
+import strategy.duck.duckbehavior.FlyNoWay;
+import strategy.duck.duckbehavior.Quack;
+
 public class ModelDuck extends Duck {
     public ModelDuck(){
         flyBehavior = new FlyNoWay();

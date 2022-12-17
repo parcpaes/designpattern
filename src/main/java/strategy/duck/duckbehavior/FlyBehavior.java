@@ -1,4 +1,4 @@
-package strategy.duck;
+package strategy.duck.duckbehavior;
 
 public interface FlyBehavior {
     void fly();
